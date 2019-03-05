@@ -1,0 +1,141 @@
+
+.contactUs-container {
+
+width: 50%;
+margin: 0 auto;
+margin-top: 50px;
+
+}
+
+span {
+  color:#999;
+}
+
+.row {
+  text-align: center;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.inputField {
+  position: relative;
+  margin-top: 20px;
+}
+
+.half {
+  width: 48%;
+}
+
+.line .label {
+  left: 7.291666667%;
+}
+
+.right {
+
+margin-left: 4%;
+}
+
+.label {
+  position: absolute;
+  bottom: 35%;
+  left: 3.5%;
+  -webkit-animation-fill-mode: forwards;
+  cursor: text;
+  transition: all .2s ease;
+  user-select: none;
+  color: #999;
+
+}
+
+input:focus ~ label, input:valid ~ label {
+  font-size: 12px;
+  bottom:61.5%;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .btn {
+    width: 50% !important;
+  }
+  .contactUs-container {
+    width: 85% !important;
+  }
+}
+
+.btn {
+  padding: 20px;
+  color: #2d2d2d;
+  background-color: #999;
+  border: none;
+  transition: all .5s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 25%;
+
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
+
+.btnDiv {
+text-align: right;
+
+}
+
+select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 20px;
+  width: 48%;
+  background-color: #2d2d2d;
+  color:#999;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;       /* remove default arrow */
+  background: url(https://image.flaticon.com/icons/svg/60/60995.svg) 92% / 15% no-repeat #2d2d2d;
+
+}
+
+select::-ms-expand {
+    display: none; /* hide the default arrow in ie10 and ie11 */
+}
+
+@media screen and (min-width:0\0) {
+    select {
+        background-image:none\9;
+        padding: 5px\9;
+    }
+}
+
+ fieldset.box-title {
+  text-transform: uppercase;
+  border-top:1px solid #E0E0E0;
+
+}
+
+fieldset legend h1 {
+  margin:0;
+}
+
+fieldset, legend {
+  border: none;
+}
+fieldset {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+input[type="text"], textarea {
+      padding: 30px;
+      border: 0;
+      width: 100%;
+      color: white;
+      font-size: 1rem;
+      background-color: #2d2d2d;
+      border-radius: 4px;
+}
