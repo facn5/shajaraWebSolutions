@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="script.js"></script>
 
+    <meta name="viewport" content="width=device-width, initial-scale=1" content="user-scalable=no">
     <meta charset="utf-8">
     <title></title>
   </head>
@@ -40,6 +41,7 @@
 
 
       </div>
+
       <br>
 <br>
 <br>
@@ -74,6 +76,61 @@
   </div>
   <div class="bioText">Riley Brunett is a big boy <br><br>CSS</div>
 </div>
+<br>
+<br>
+<br>
+
+
+      <div class="contactUs-container">
+
+      <link rel="stylesheet" href="style.css">
+
+      <div class="row">
+        <fieldset class="box-title">
+      <legend align="center"><h1>&nbsp;&nbsp;Contact Us Form&nbsp;&nbsp;</h1></legend>
+        </fieldset>
+
+        <h2 class="description">We would love to hear from you!</h2>
+      </div>
+
+      <div class="form">
+      <form id="emailForm" method="post" action="mailto:karam.ashqar01@gmail.com?subject=requestSubmitted">
+
+      <div class="inputField">
+      <input required type="text">
+      <label class="label" >What is your full name?</label>
+      </div>
+
+      <div style="display:flex;">
+      <div class="inputField half">
+      <input id="email-input" required type="text">
+      <label class="label line">What is your email?</label>
+      </div>
+
+      <div class="inputField half right">
+      <input required type="text" >
+      <label class="label line">What is your phone number?</label>
+      </div>
+      </div>
+
+      <div class="inputField">
+
+      <select required>
+        <option value="" disabled selected>Service</option>
+        <option value="Web Developing">Web Developing</option>
+        <option value="App Creating">App Creating</option>
+        <option value="Solving problems">Helping solving problems</option>
+      </select>
+      </div>
+
+      </form>
+      <div class="btnDiv">
+      <button class="btn" form="emailForm" type="submit">Submit</button>
+      </div>
+
+      </div>
+      </div>
+
   </body>
 
 </html>
