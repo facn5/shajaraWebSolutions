@@ -23,15 +23,15 @@ body {
   text-align: center;
   color: white;
   background-color: #343139;
-  font-family: 'Montserrat', sans-serif; }
+   }
 
 .title {
-  margin: 100px 0 50px 0;
+
   letter-spacing: 3px;
   color: #DFE3EE; }
 
 .description {
-  color: #DFE3EE;
+  color: #white;
   font-size: 1em;
   margin-bottom: 50px; }
 
@@ -43,7 +43,7 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .container .col-3:nth-of-type(1) {
-    width: 29.33%;
+      width: 21.75%;
     margin-left: 5%;
     margin-right: 1%;
     border-bottom: 8px solid #FC6F72;
@@ -51,9 +51,10 @@ body {
     border-bottom-left-radius: 5px;
     background-color: #3E3937;
     height: 200px;
-    color: #FC6F72; }
+    color: white; }
+
   .container .col-3:nth-of-type(2) {
-    width: 29.33%;
+      width: 21.75%;
     margin-right: 1%;
     border-bottom: 8px solid #A6CB5D;
     border-bottom-right-radius: 5px;
@@ -61,15 +62,27 @@ body {
     background-color: #3E3937;
     height: 200px;
     color: #A6CB5D; }
+
   .container .col-3:nth-of-type(3) {
-    width: 29.33%;
-    margin-right: 5%;
+      width: 21.75%;
+    margin-right: 1%;
     border-bottom: 8px solid #EDC677;
     border-bottom-right-radius: 5px;
+
     border-bottom-left-radius: 5px;
     background-color: #3E3937;
     height: 200px;
     color: #EDC677; }
+
+    .container .col-3:nth-of-type(4) {
+      width: 21.75%;
+
+      border-bottom: 8px solid #EDC677;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #3E3937;
+      height: 200px;
+      color: #EDC677; }
 
 span {
   font-size: 18px;
@@ -93,8 +106,173 @@ i {
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
-    -o-transition: 1s;
-  }
+    -o-transition: 1s; }
+
+
+
+.about__section {
+  width:960px;
+  margin:auto;
+}
+
+.about__section .about__slot {
+  width:33%;
+  box-sizing: border-box;
+  background-color:#3E3937;
+  border-right:none;
+  border-top:none;
+  height:15vw;
+  min-height:300px;
+  min-width:220px;
+  display:inline-block;
+  vertical-align:top;
+  text-align:center;
+  cursor:pointer;
+  position:relative;
+  background-size:0% auto;
+  -webkit-transition:all 0.3s linear;
+  background-position:center center;
+  background-repeat:no-repeat;
+  overflow:hidden;
+}
+
+.about__slot .bioText {
+  opacity:0;
+  color:white;
+  pointer-events:none;
+  position:absolute;
+  top:350px;
+  left:0;
+  right:0;
+  padding:10%;;
+  padding-top:25px;
+  padding-bottom:25px;
+  width:80%;
+  height:0;
+  -webkit-transition:all 0.3s linear;
+  margin:auto;
+}
+
+.about__slot.bio .about__info {
+  top:0px;
+  bottom:200px;
+  background-color:rgba(0,0,0,0.42);
+  box-shadow:inset 0px -5px 10px 0 rgba(0,0,0,1);
+}
+
+.about__slot.bio .bioText  {
+  opacity:1;
+  border-radius:0;
+ position:absolute;
+  top:50px;
+  padding-top:200px;
+  left:0;
+  right:0;
+  bottom:0;
+  width:80%;
+  height:250px;
+  color:white;
+  background-color:rgba(42,42,42,0.7);
+  z-index:8;
+  margin:auto;
+  font-family:sans-serif;
+  overflow:auto;
+}
+
+.about__slot .about__info {
+  position:absolute;
+  left:0;
+  bottom:0;
+  top:210px;
+  right:0;
+  pointer-events:none;
+  z-index:9;
+  -webkit-transition:all 0.3s linear;
+
+}
+
+.about__slot .headshot {
+  margin:auto;
+  margin-top:19px;
+  width:172px;
+  height:172px;
+
+  background-size:200px 200px;
+  background-position:center 15%;
+  border-radius:100%;
+  box-shadow:0px 2px 10px 2px rgba(0,0,0,0.42);
+  -webkit-transition:all 0.1s ease-in-out;
+}
+
+.about__slot.bio .headshot {
+  -webkit-filter:blur(3px);
+  opacity:1;
+  width:100%;
+  height:300px;
+  border-radius:0;
+  margin-top:0;
+  background-size:375px 375px !important;
+  border:0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+
+}
+
+.about__slot .name {
+  font-family:"Typo Grotesk",sans-serif;
+  font-size:20px;
+  font-weight:800;
+  color:white;
+  margin-bottom:0px;
+  -webkit-transition:all 0.3s linear;
+}
+
+.about__slot .title {
+   font-family:"Typo Grotesk",sans-serif;
+  font-size:16px;
+  font-weight:300;
+  margin-top:5px;
+  color:black;
+  -webkit-transition:all 0.3s linear;
+}
+
+.about__slot.bio .name {
+  color:#f5f5f5;
+}
+
+.about__section .about__slot:hover .headshot {
+  opacity:1;
+  width:100%;
+  height:300px;
+  border-radius:0;
+  margin-top:0;
+  background-size:325px 325px;
+  border:0;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+.about__section .about__slot:hover .name {
+  color:#f5f5f5 !important;
+}
+
+.about__section .about__slot:hover .about__info {
+    background-color:rgba(0,0,0,0.42);
+}
+#team-members {
+
+  margin-bottom:200px;
+
+
+}
+
+
+
+
 
   .contactUs-container {
 
