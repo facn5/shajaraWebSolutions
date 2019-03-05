@@ -3,11 +3,9 @@ body {
   color: white;
   background-color: #343139;
    }
-   .fa-briefcase:before {
-       content: "\f0b1";
-   }
+
 .title {
-  margin: 100px 0 50px 0;
+
   letter-spacing: 3px;
   color: #DFE3EE; }
 
@@ -24,7 +22,7 @@ body {
     display: -ms-flexbox;
     display: flex; }
   .container .col-3:nth-of-type(1) {
-    width: 29.33%;
+      width: 21.75%;
     margin-left: 5%;
     margin-right: 1%;
     border-bottom: 8px solid #FC6F72;
@@ -34,7 +32,7 @@ body {
     height: 200px;
     color: white; }
   .container .col-3:nth-of-type(2) {
-    width: 29.33%;
+      width: 21.75%;
     margin-right: 1%;
     border-bottom: 8px solid #A6CB5D;
     border-bottom-right-radius: 5px;
@@ -42,8 +40,9 @@ body {
     background-color: #3E3937;
     height: 200px;
     color: #A6CB5D; }
+
   .container .col-3:nth-of-type(3) {
-    width: 29.33%;
+      width: 21.75%;
     margin-right: 5%;
     border-bottom: 8px solid #EDC677;
     border-bottom-right-radius: 5px;
@@ -51,6 +50,16 @@ body {
     background-color: #3E3937;
     height: 200px;
     color: #EDC677; }
+
+    .container .col-3:nth-of-type(4) {
+      width: 21.75%;
+      margin-left:5%;
+      border-bottom: 8px solid #EDC677;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: #3E3937;
+      height: 200px;
+      color: #EDC677; }
 
 span {
   font-size: 18px;
@@ -234,5 +243,10 @@ i {
 
   margin-bottom:200px;
 
+
+}
+
+#cc{
+margin-right:15%;
 
 }
