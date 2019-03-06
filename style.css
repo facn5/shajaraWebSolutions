@@ -129,7 +129,12 @@ i {
     cursor: pointer;
     transition: 1s;}
 
-
+.about1 {
+  color: #c9e4ca;
+  font-size: 1.5em
+  height: 100vh;
+  width: auto;
+}
 
 .about__section {
   margin:auto;
