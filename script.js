@@ -7,10 +7,6 @@ function biograph(e) {
 	}
 }
 
-function phoneOnFocus() {
-}
-
-
 document.addEventListener('DOMContentLoaded', function() {
 	var phoneID = document.getElementById('phoneNumber')
 
@@ -33,7 +29,7 @@ var navbar1 = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset > sticky) {
 		navbar1.style.display = "block"
     navbar1.classList.add("sticky")
   } else {
