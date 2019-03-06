@@ -58,7 +58,7 @@ html {
   }
 
   #main-image{
-
+  user-select: none;
   width:50vw;
 
   }
