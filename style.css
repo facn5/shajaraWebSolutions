@@ -2,6 +2,42 @@ html {
   overflow-x: hidden;
 }
 
+
+#navbar {
+  display: none;
+  overflow: visible;
+  z-index: 10;
+  padding:15px;
+  transition: all .2s ease;
+  background-color: #333;
+}
+
+#navbar a {
+  float: center;
+  opacity:0.5;
+  color: #f2f2f2;
+  transition: opacity .3s ease;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color:white;
+  opacity: 1;
+  color:black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
 @media screen and (min-width:0\0) {
     select {
         background-image:none\9;
@@ -28,11 +64,13 @@ body {
 .title {
 
   letter-spacing: 3px;
-  color: #DFE3EE; }
+  color: #DFE3EE;
+}
 
 .description {
-  color: #white;
+  color: white;
   font-size: 1em;
+  text-decoration: none;
   margin-bottom: 50px; }
 
 .container {
@@ -377,8 +415,13 @@ i {
 
   }
 
+  a {
+     text-decoration: none;
+  }
+
   fieldset legend h1 {
     margin:0;
+    text-decoration: none !important;
     letter-spacing: 1.5px;
   }
 
