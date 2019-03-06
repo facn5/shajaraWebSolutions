@@ -386,7 +386,7 @@ input[type="tel"]:invalid:not([value=""]) ~ label {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;       /* remove default arrow */
-    background: url(../assets/arrow_drop_down-512.png) 92% / 15% no-repeat #3E3937;
+    background: url(assets/arrow_drop_down-512.png) 92% / 15% no-repeat #3E3937;
 
   }
 
