@@ -15,11 +15,9 @@
 <section>
       <div class="container">
 
-
-
-                <img src="https://i.imgur.com/tQJNSUu.png" alt="main image" id="main-image">
-              <h1 class="title">We speak your language.  We know your business.</h1>
-            <h2 class="description">Web Development solutions in the Galilee.</h2>
+            <img src="https://i.imgur.com/tQJNSUu.png" >
+                <h1 class="title">ABOUT US</h1>
+              <h2 class="description">We provide you with the latest and the most creative Web Development Solutions.</h2>
           <div class="row">
               <div class="col-3">
                   <span>About Us</span>
@@ -43,13 +41,14 @@
           </div>
 
           <div id="navbar">
-            <a href="javascript:void(0)">About Us</a>
+            <a href="#">About Us</a>
             <a href="javascript:void(0)">Team Members</a>
             <a href="javascript:void(0)">Services</a>
             <a href="javascript:void(0)">Contact Form</a>
           </div>
 
       </div>
+
       <br>
 <br>
 <br>
@@ -87,11 +86,9 @@
 <br>
 <br>
 <br>
-</section>
+</section><section>
 
       <div class="contactUs-container">
-
-
 
       <div class="row">
         <fieldset class="box-title">
@@ -102,21 +99,21 @@
       </div>
 
       <div class="form">
-      <form id="emailForm" method="post" action="mailto:karam.ashqar01@gmail.com?subject=requestSubmitted">
+      <form id="emailForm" method="post" action="mailto:example@another.com?subject=requestSubmitted" >
 
       <div class="inputField">
-      <input required type="text">
+      <input placeholder=" " required maxlength="25" type="text">
       <label class="label" >What is your full name?</label>
       </div>
 
       <div style="display:flex;">
       <div class="inputField half">
-      <input id="email-input" required type="text">
+      <input placeholder=" " required type="email" maxlength="50">
       <label class="label line">What is your email?</label>
       </div>
 
       <div class="inputField half right">
-      <input required type="text" >
+      <input onkeyup="this.setAttribute('value', this.value);" value="" id="phoneNumber" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="14" required >
       <label class="label line">What is your phone number?</label>
       </div>
       </div>
@@ -131,15 +128,15 @@
       </select>
       </div>
 
-      </form>
       <div class="btnDiv">
-      <button class="btn" form="emailForm" type="submit">Submit</button>
+      <input class="btn" value="Submit" type="submit">
       </div>
+      </form>
+
 
       </div>
-
       </div>
-
+</section>
   </body>
 
 </html>

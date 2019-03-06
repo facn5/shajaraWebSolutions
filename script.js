@@ -7,10 +7,24 @@ function biograph(e) {
 	}
 }
 
+function phoneOnFocus() {
+}
+
+
 document.addEventListener('DOMContentLoaded', function() {
+	var phoneID = document.getElementById('phoneNumber')
 
+	phoneID.addEventListener('focusin', function() {
+		phoneID.placeholder = "888 888 8888"
+	  }, true);
 
-window.onscroll = function() {myFunction()};
+		phoneID.addEventListener('focusout', function() {
+			phoneID.placeholder = ""
+		}, false);
+
+window.onscroll = function() {
+	myFunction()
+};
 
 
 var navbar = document.getElementById("team-members");
