@@ -8,9 +8,19 @@ function biograph(e) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+	var phoneID = document.getElementById('phoneNumber')
 
+	phoneID.addEventListener('focusin', function() {
+		phoneID.placeholder = "888 888 8888"
+	  }, true);
 
-window.onscroll = function() {myFunction()};
+		phoneID.addEventListener('focusout', function() {
+			phoneID.placeholder = ""
+		}, false);
+
+window.onscroll = function() {
+	myFunction()
+};
 
 
 var navbar = document.getElementById("team-members");
@@ -19,7 +29,7 @@ var navbar1 = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-  if (window.pageYOffset >= sticky) {
+  if (window.pageYOffset > sticky) {
 		navbar1.style.display = "block"
     navbar1.classList.add("sticky")
   } else {
