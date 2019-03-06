@@ -38,17 +38,12 @@ html {
   padding-top: 60px;
 }
 
-@media screen and (min-width:0\0) {
-    select {
-        background-image:none\9;
-        padding: 5px\9;
-    }
-}
-
-
   @media only screen and (max-width: 700px) {
     .btn {
       width: 35% !important;
+    }
+    #main-image{
+      width:100vw;
     }
     .contactUs-container {
       width: 95vw !important;
