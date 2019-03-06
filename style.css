@@ -64,14 +64,16 @@ body {
 .title {
 
   letter-spacing: 3px;
-  color: #DFE3EE;
+  color: #c9e4ca;
 }
 
 .description {
-  color: white;
+  color: #c9e4ca;
   font-size: 1em;
   text-decoration: none;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+
+
 
 .container {
   width: 100%; }
