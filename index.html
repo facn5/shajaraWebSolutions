@@ -4,12 +4,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <script src="script.js"></script>
-
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1" content="user-scalable=no">
-    <meta charset="utf-8">
-    <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" content="user-scalable=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-compatible" content="ie-edge">
+  <meta name="description" content="Portfolio Website for Shajara Web Design firm based in Nazareth">
+  <meta name="keywords" content="shajara web design solutions software developers nazareth israel">
+  <meta name="author" content="John, Karam, Shadi">
+  <title></title>
   </head>
   <body>
 <section>
@@ -17,7 +18,7 @@
 
 
 
-                <img src="https://i.imgur.com/tQJNSUu.png" alt="main image" id="main-image">
+                <img src="https://i.imgur.com/tQJNSUu.png" alt="shajara tree logo" id="main-image">
               <h1 class="title">We speak your language.  We know your business.</h1>
             <h2 class="description">Web Development solutions in the Galilee.</h2>
           <div class="row">
@@ -41,12 +42,11 @@
                   </a></div>
 
           </div>
-
           <div id="navbar">
-            <a href="javascript:void(0)">About</a>
-            <a href="javascript:void(0)">Team Members</a>
-            <a href="javascript:void(0)">Services</a>
-            <a href="javascript:void(0)">Contact Form</a>
+            <a href="javascript:void(0)" alt="About" >About</a>
+            <a href="javascript:void(0)" alt="Team">Team Members</a>
+            <a href="javascript:void(0)" alt="Services">Services</a>
+            <a href="javascript:void(0)" alt="Contact">Contact Form</a>
           </div>
 
       </div>
@@ -58,13 +58,16 @@
       <div class="about__section">
 <div id="team-members">
     <h1 class="title">Team Members</h1>
-<a href="javascript:void(0);" title="John Rogger - CEO"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('http://placekitten.com/254/254');"></div>
+<a href="javascript:void(0);" title="John Rodger - Software Developer"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('https://user-images.githubusercontent.com/32282170/53876885-75b59680-4010-11e9-9d27-de8ac98be8fc.jpg');"></div>
   <div class="about__info">
   <h4 class="name">John Rodger</h4>
   <h5 class="title">Software Developer</h5>
   </div>
-  <div class="bioText">John TTTT<br><br>
-    Specalizies in: html,css,js
+  <div class="bioText">John Rodger<br><br>
+    Specializes in: HTML, CSS, AND JavaScript
+    <a href="https://www.linkedin.com/in/john-rodger-7b6561131">LinkedIn</a>
+    <a href="https://github.com/misterrodger">GitHub</a>
+    <a href="https://www.codewars.com/users/misterrodger">CodeWars</a>
   </div>
 
 </div></a><a href="javascript:void(0);" title="Shadi Rayan - CTO"><div class="about__slot bio">
@@ -74,7 +77,11 @@
   <h4 class="name">Shadi Rayan</h4>
   <h5 class="title">Chief Technology Officer</h5>
   </div>
-    <div class="bioText">Shadi Rayan is a crazy programmer<br><br>CSS</div>
+    <div class="bioText">Shadi Rayan is a crazy programmer<br><br>CSS
+      <a href="https://www.linkedin.com/in/shadirayan/">LinkedIn</a>
+      <a href="https://github.com/mrfong">GitHub</a>
+      <a href="https://www.codewars.com/users/Shadirayan">CodeWars</a>
+    </div>
 
 
   </div></a><a href="javascript:void(0);" title="Karam Ashqar - Creative Director"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-image:url('http://placekitten.com/224/224');"></div>
@@ -82,7 +89,10 @@
   <h4 class="name">Karam Ashqar</h4>
   <h5 class="title">Creative Director</h5>
   </div>
-  <div class="bioText">Riley Brunett is a big boy <br><br>CSS</div>
+  <div class="bioText">Karam is a big boy <br><br>CSS</div>
+  <a href="https://www.linkedin.com/in/karam-ashqar-8b96ba181/">LinkedIn</a>
+  <a href="https://github.com/karam1ashqar">GitHub</a>
+  <a href="https://www.codewars.com/users/karam1ashqar">CodeWars</a>
 </div>
 <br>
 <br>
@@ -105,25 +115,25 @@
       <form id="emailForm" method="post" action="mailto:karam.ashqar01@gmail.com?subject=requestSubmitted">
 
       <div class="inputField">
-      <input required type="text">
+      <input type="text" required >
       <label class="label" >What is your full name?</label>
       </div>
 
       <div style="display:flex;">
       <div class="inputField half">
-      <input id="email-input" required type="text">
+      <input id="email-input" type="text" required>
       <label class="label line">What is your email?</label>
       </div>
 
       <div class="inputField half right">
-      <input required type="text" >
+      <input type="text" required>
       <label class="label line">What is your phone number?</label>
       </div>
       </div>
 
       <div class="inputField">
 
-      <select required>
+      <select name="servicesDropdown" required>
         <option value="" disabled selected>Service</option>
         <option value="Web Developing">Web Developing</option>
         <option value="App Creating">App Creating</option>
