@@ -1,9 +1,9 @@
 # shajaraWebSolutions
 portfolio for web development agency based in Nazareth
 
-[Link-to-site:](https://facn5.github.io/shajaraWebSolutions/)
+[Our website](https://facn5.github.io/shajaraWebSolutions/)
 
-[link-to-rep:](https://github.com/facn5/shajaraWebSolutions)
+[Our repo](https://github.com/facn5/shajaraWebSolutions)
 
 
 # Why:
