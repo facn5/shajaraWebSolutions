@@ -78,12 +78,13 @@ width:50vw;
 .title {
 
   letter-spacing: 3px;
-  color: #DFE3EE;
+  color: #c9e4ca;
+  font-size: 2em;
 }
 
 .description {
-  color: white;
-  font-size: 1em;
+  color: #c9e4ca;
+  font-size: 1.5em;
   text-decoration: none;
   margin-bottom: 50px; }
 
@@ -107,18 +108,18 @@ width:50vw;
     border-bottom-left-radius: 5px;
     background-color: #3E3937;
     height: 200px;
-    color: white; }
+    color: #c9e4ca; }
 
 
 
 span {
-  font-size: 18px;
+  font-size: 1.5em;
   display: block;
   margin: 15px 0 50px 0;
   font-weight: bold; }
 
 a {
-  color: white; }
+  color: #c9e4ca; }
 
 i {
   opacity: 0.2;
@@ -163,7 +164,7 @@ i {
 
 .about__slot .bioText {
   opacity:0;
-  color:white;
+  color: #c9e4ca;
   pointer-events:none;
   position:absolute;
   top:350px;
@@ -196,7 +197,7 @@ i {
   bottom:0;
   width:80%;
   height:250px;
-  color:white;
+  color: #c9e4ca;
   background-color:rgba(42,42,42,0.7);
   z-index:8;
   margin:auto;
@@ -249,17 +250,17 @@ i {
   font-family:"Typo Grotesk",sans-serif;
   font-size:20px;
   font-weight:800;
-  color:white;
+  color: #c9e4ca;
   margin-bottom:0px;
   -webkit-transition:all 0.3s linear;
 }
 
 .about__slot .title {
    font-family:"Typo Grotesk",sans-serif;
-  font-size:16px;
+  font-size: 1.5em;
   font-weight:300;
   margin-top:5px;
-  color:black;
+  color: #87bba2;
   -webkit-transition:all 0.3s linear;
 }
 
@@ -343,6 +344,7 @@ i {
     transition: all .2s ease;
     user-select: none;
     color: #999;
+    font-size: 1.5em;
 
   }
 
@@ -355,6 +357,7 @@ i {
   .btn {
     padding: 20px;
     margin-top:10px;
+    font-size: 1.5em;
     color: #343139;
     background-color: #999;
     border: none;
@@ -380,6 +383,7 @@ i {
     position: relative;
     padding: 20px;
     width: 48%;
+    font-size: 1.5em;
     border:none;
     background-color: #3E3937;
     color:#999;
