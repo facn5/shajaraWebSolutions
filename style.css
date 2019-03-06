@@ -15,7 +15,7 @@ html {
 
 #navbar a {
   color: #f2f2f2;
-  font-size: 23px;
+  font-size: 1.6em;
   transition: opacity .3s ease;
   text-align: center;
   padding: 14px;
