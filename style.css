@@ -11,7 +11,6 @@ margin-bottom: 15vw;
   display: none;
   overflow: visible;
   z-index: 10;
-
   padding:15px;
   transition: all .2s ease;
   background-color: #333;
@@ -302,7 +301,7 @@ i {
 
   .contactUs-container {
 
-  width: 50%;
+  width: 50vw;
   margin: 0 auto;
   margin-top: 50px;
 
