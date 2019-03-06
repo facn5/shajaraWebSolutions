@@ -371,6 +371,7 @@ input[type="tel"]:invalid:not([value=""]) ~ label {
     font-size: 1.5em;
     color: #343139;
     background-color: #999;
+    margin-bottom:10%;
     border: none;
     transition: all .5s ease;
     border-radius: 5px;
