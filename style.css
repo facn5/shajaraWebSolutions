@@ -51,14 +51,21 @@ html {
       width: 35% !important;
     }
     .contactUs-container {
-      width: 100% !important;
+      width: 100vw !important;
     }
+  }
+
+  #main-image{
+
+  width:50vw;
+
   }
 
 body {
   text-align: center;
   color: white;
   background-color: #343139;
+  position: relative;
    }
 
 .title {
@@ -73,13 +80,17 @@ body {
   text-decoration: none;
   margin-bottom: 50px; }
 
-.container {
-  width: 100%; }
+.container{
+width: 100vw;
+margin-bottom: 15vw;
+
+}
   .container .row {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+  }
   .container .col-3:nth-of-type(1) {
       width: 21.75%;
     margin-left: 5%;
