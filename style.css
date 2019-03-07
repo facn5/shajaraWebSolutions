@@ -1,3 +1,4 @@
+
 html {
 	overflow-x: hidden;
 }
@@ -31,34 +32,7 @@ html {
 .sticky+.content {
 	padding-top: 60px;
 }
-@media only screen and (max-width: 700px) {
-	.btn {
-		width: 35% !important;
-	}
-	#navbar {
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
-	#main-image {
-		width: 100vw !important;
-	}
-	.row {
-		display: block !important;
-	}
-	.title {
-		letter-spacing: 0 !important;
-	}
-	.container .col-3 {
-		width: 100% !important;
-		margin-left: 0 !important;
-		zoom: 0.75 !important;
-		padding: 0 !important;
-	}
-	.contactUs-container {
-		width: 95vw !important;
-	}
-}
+
 #main-image {
 	user-select: none;
 	width: 50vw;
@@ -382,4 +356,33 @@ input, textarea {
 	font-size: 1rem;
 	background-color: #3E3937;
 	border-radius: 4px;
+}
+
+@media only screen and (max-width: 700px) {
+	.btn {
+		width: 35%;
+	}
+	#navbar {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	#main-image {
+		width: 100vw;
+	}
+	.row {
+		display: block;
+	}
+	.title {
+		letter-spacing: 0;
+	}
+	.container .col-3 {
+		width: 100%;
+		margin-left: 0;
+		zoom: 0.75;
+		padding: 0;
+	}
+	.contactUs-container {
+		width: 95vw;
+	}
 }
