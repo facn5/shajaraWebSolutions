@@ -371,7 +371,7 @@ input, textarea {
 		width: 100%;
 	}
 	#main-image {
-		width: 100vw;
+		width: 100%;
 	}
 	.row {
 		display: block;
