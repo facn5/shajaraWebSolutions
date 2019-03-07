@@ -344,7 +344,7 @@ i {
     transition: all .2s ease;
     user-select: none;
     color: #999;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
   }
 
@@ -395,7 +395,7 @@ input[type="tel"]:invalid:not([value=""]) ~ label {
     position: relative;
     padding: 20px;
     width: 48%;
-    font-size: 1.5em;
+    font-size: 1.3em;
     border:none;
     background-color: #3E3937;
     color:#999;
