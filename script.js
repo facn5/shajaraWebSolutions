@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	phoneID.addEventListener('focusin', function() {
 		phoneID.placeholder = "050 555 5555"
-		phoneLabelID.innerContent = "What is your phone number? (555 555 5555)"
+		phoneLabelID.innerText = "What is your phone number? (555 555 5555)"
 	  }, true);
 
 		phoneID.addEventListener('focusout', function() {
 			phoneID.placeholder = ""
-			phoneLabelID.innerContent = "What is your phone number?"
+			phoneLabelID.innerText = "What is your phone number?"
 
 		}, false);
 
