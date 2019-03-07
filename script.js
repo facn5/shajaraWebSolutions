@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	var phoneID = document.getElementById('phoneNumber')
 
 	phoneID.addEventListener('focusin', function() {
-		phoneID.placeholder = "888 888 8888"
+		phoneID.placeholder = "050 555 5555"
 	  }, true);
 
 		phoneID.addEventListener('focusout', function() {
@@ -23,7 +23,7 @@ window.onscroll = function() {
 };
 
 
-var navbar = document.getElementById("team-members");
+var navbar = document.getElementById("about1");
 var navbar1 = document.getElementById("navbar");
 
 var sticky = navbar.offsetTop;
