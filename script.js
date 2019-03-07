@@ -30,7 +30,7 @@ function clearForm() {
 }
 
 
-var navbar = document.getElementById("about1");
+var navbar = document.getElementById("about-us");
 var navbar1 = document.getElementById("navbar");
 
 var sticky = navbar.offsetTop;
