@@ -7,6 +7,7 @@ function biograph(element) {
 	}
 }
 
+
 document.addEventListener('DOMContentLoaded', function() {
 	var phoneID = document.getElementById('phoneNumber')
 
@@ -21,6 +22,12 @@ document.addEventListener('DOMContentLoaded', function() {
 window.onscroll = function() {
 	onScrollShowNavBar()
 };
+
+function clearForm() {
+	document.getElementById("mytext").value = ""
+	document.getElementById("myemail").value = ""
+	document.getElementById("phoneNumber").value = ""
+}
 
 
 var navbar = document.getElementById("about1");

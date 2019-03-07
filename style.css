@@ -362,6 +362,9 @@ input, textarea {
 	.btn {
 		width: 35%;
 	}
+	#navbar a {
+		font-size: 1em;
+	}
 	#navbar {
 		position: fixed;
 		top: 0;
