@@ -1,9 +1,9 @@
-function biograph(e) {
-	if(e.className == 'about__slot') {
-		e.className = 'about__slot bio';
+function biograph(element) {
+	if(element.className == 'about__slot') {
+		element.className = 'about__slot bio';
 	}
 	else {
-		e.className = 'about__slot';
+		element.className = 'about__slot';
 	}
 }
 
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		}, false);
 
 window.onscroll = function() {
-	myFunction()
+	onScrollShowNavBar()
 };
 
 
@@ -28,7 +28,7 @@ var navbar1 = document.getElementById("navbar");
 
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function onScrollShowNavBar() {
   if (window.pageYOffset >= sticky) {
 		navbar1.style.display = "block"
     navbar1.classList.add("sticky")
