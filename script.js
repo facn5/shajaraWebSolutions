@@ -38,3 +38,9 @@ function myFunction() {
   }
 }
 })
+
+function clearForm() {
+	document.getElementById("mytext").value = ""
+	document.getElementById("myemail").value = ""
+	document.getElementById("phoneNumber").value = ""
+}
