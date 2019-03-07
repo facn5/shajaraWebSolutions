@@ -84,6 +84,15 @@ span {
 a {
 	color: #c9e4ca;
 }
+#about-us{
+
+
+margin-top: 15%;
+margin-bottom: 15%;
+background-color: #3E3937;
+padding:auto;
+
+}
 i {
 	opacity: 0.2;
 	transition: 1s;
