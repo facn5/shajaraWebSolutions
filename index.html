@@ -112,21 +112,21 @@ Contact us today to see what Shajara may do for you.</p>
 
       <div class="inputField">
 
-      <input placeholder=" " required maxlength="25" type="text">
-      <label class="label" >What is your full name?</label>
+      <input id="mytext" placeholder=" " required maxlength="25" type="text">
+      <label for="mytext" class="label" >What is your full name?</label>
       </div>
 
       <div style="display:flex;">
       <div class="inputField half">
 
-      <input placeholder=" " required type="email" maxlength="50">
-      <label class="label line">What is your email?</label>
+      <input id="myemail" placeholder=" " required type="email" maxlength="50">
+      <label for="myemail" class="label line">What is your email?</label>
       </div>
 
       <div class="inputField half right">
 
-      <input onkeyup="this.setAttribute('value', this.value);" value="" id="phoneNumber" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="14" required >
-      <label class="label line">What is your phone number?</label>
+      <input id="myphonenum" onkeyup="this.setAttribute('value', this.value);" value="" id="phoneNumber" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="14" required >
+      <label for"myphonenum" class="label line">What is your phone number?</label>
       </div>
       </div>
 
