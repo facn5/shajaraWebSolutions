@@ -1,22 +1,17 @@
 # shajaraWebSolutions
 portfolio for web development agency based in Nazareth
 
-[Our website](https://facn5.github.io/shajaraWebSolutions/)
+[Our website](https://facn5.github.io/CryptoReportss/)
 
-[Our repo](https://github.com/facn5/shajaraWebSolutions)
+[Our repo](https://github.com/facn5/CryptoReportss)
 
 
 # Why:
-Shajara Web Solution offers a wide variety of Web Solutions, we ensure you perfect projects
-in the shortest amount of time possible, we use the most advanced technologies on the web
-to ensure you get the best project possible.
-
+Crypto Reports offers news from over than 30,000 news sources, we ensure you the best lastest
+and most updated and reliable reports from all over the world, we offer a fully responsive website that works on
+all devices.
 # What:
-A basic profile for a web design firm in Nazareth, It's fully responsive for all devices,
-modern dark-ish designs.
-
+A website that displays news from multplie news sources and displays the lastest prices
 
 # How:
-Our site is really simple, you can use the navigation bar to navigate the site,
-you can choose which service you want and send a message to the developers so they
-can offer you the best solution.
+Open the site, the main page displays the lastest 6 articles and the header displays the current crypto currency prices
